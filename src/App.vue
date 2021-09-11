@@ -1,32 +1,51 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/bird.gif">
-    <Historia msg="Bienvenido a tu cAPPmino" :Historia="datos.text"/>
-    <Opciones :opciones="datos.opciones"/>
-  </div>
+    <Historia msg="Bienvenido a tu cAPPmino" :Historia="state.historiaActual().historia"/>
+    <!-- <Opciones :opciones="state.historiaActual().opciones" :changeEvent="handleClick()"/> -->
+    <section>
+      <h4>Opciones</h4>
+      <ul>
+        <li v-for="(opcion, index) in state.historiaActual().opciones" :key="opcion.index">
+          <button @click="handleClick(index)">{{ index }}</button>{{ opcion }}
+        </li>
+      </ul>
+    </section>
+  </div> 
 </template>
 
 <script>
-import Historia from './components/Historia.vue'
-import Opciones from './components/Opciones.vue'
+import Historia from './components/Historia'
+// import Opciones from './components/Opciones'
+import eventos from './data/data.json'
 
 export default {
   name: 'App',
   components: {
     Historia,
-    Opciones
+    // Opciones
   },
   data() {
     return {
-      datos: {
-        text: "La historia comienza con un pequeño byte, el cual tiene dos opciones para seguir su camino.",
-        opciones: {
-          A: "opción 0",
-          B: "opción 1"
-        }
-      }
+      state: {
+        ultimaOpcion: "",
+        contador:1,
+        historiaActual: () => { return eventos.find( (evento) => evento.id === this.state.contador + this.state.ultimaOpcion.toLowerCase() )}
+      },
+      eleccion: ''
     }
-  }
+  },
+  methods: {
+    handleClick (opcionElegida) {
+      if (this.state.contador < 5) {
+        this.state.ultimaOpcion = opcionElegida;
+        this.state.contador += 1;
+      } else {
+        alert("FIN?");
+        window.location.reload();
+      }
+    },
+  },
 }
 </script>
 

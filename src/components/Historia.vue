@@ -1,7 +1,9 @@
 <template>
-    <h2>{{msg}}</h2>
-    <hr>
-    <p>{{ Historia }}</p>
+    <section>
+        <h2>{{msg}}</h2>
+        <hr>
+        <p>{{ Historia }}</p>
+    </section>
 </template>
 
 <script>
@@ -13,7 +15,7 @@ export default {
         return {  }
     },
     props: {
-        Historia: Object,
+        Historia: String,
         msg: String
     }
 }
