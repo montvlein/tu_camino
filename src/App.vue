@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/bird.gif">
-    <Historia msg="Bienvenido a tu cAPPmino" :Historia="state.historiaActual().historia"/>
+    <Historia id="historia" msg="Bienvenido a tu cAPPmino" :Historia="state.historiaActual().historia"/>
     <!-- <Opciones :opciones="state.historiaActual().opciones" :changeEvent="handleClick()"/> -->
     <section>
       <h4>Opciones</h4>
@@ -65,5 +65,27 @@ export default {
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+#historia{
+  max-width: 720px;
+  margin: auto;
+}
+
+#historia > p{
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 10vh;
+}
+
+button {
+  background-color: #2c3e50;
+  border-radius: 50%;
+  cursor: pointer;
+  color: aliceblue;
+  height: 50px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 50px;
 }
 </style>
