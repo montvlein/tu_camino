@@ -17,7 +17,7 @@
 <script>
 import Historia from './components/Historia'
 // import Opciones from './components/Opciones'
-import eventos from './data/data.json'
+import eventos from './data/history.json'
 
 export default {
   name: 'App',
@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     handleClick (opcionElegida) {
-      if (this.state.contador < 5) {
+      if (this.state.contador < 6) {
         this.state.ultimaOpcion = opcionElegida;
         this.state.contador += 1;
       } else {

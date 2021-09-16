@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "historia": "Las estrellas inundan tu vista mientras lentamente se te van cerrando los parpados. Intentas recordar la última vez que te sentiste tan cómodo. El viento soplando sobre el agua, se mezcla con el silencio del bosque que te rodea.",
+    "opciones": {
+      "a": "Cerras los ojos para prestar atención a los sonidos",
+      "b": "Buscas constelaciones en el cielo"
+    }
+  },
+  {
+    "id": "2a",
+    "historia": "El agua suena más fuerte y clara, te das cuenta de lo cerca que estas de la costa, pero también empezás a distinguir sonidos de animales. \nSilencio. Un silencio que incomoda te invade, desaparecen los sonidos y te saca del transe. ",
+    "opciones": {
+      "a": "Abrís los ojos y buscar a tu alrededor",
+      "b": "Te haces el dormido"
+    }
+  },
+  {
+    "id": "2b",
+    "historia": "La vida en la ciudad te mantuvo ocupado demacrado tiempo como para aprender sobre constelaciones. Intentas buscar formas sin resultado. Una estrella fugas te llama la atención. Se comporta extraño, lo suficientemente raro como para sacarte el sueño. De repente la estrella cambia el rumbo y se dirige hacia vos.",
+    "opciones": {
+      "a": "Miras a tu alrededor buscando respuestas a lo que pasa",
+      "b": "Cerras los ojos con fuerza"
+    }
+  },
+  {
+    "id": "3a",
+    "historia": "El sonido de una explosión te sacude sin darte tiempo a reaccionar. Te levantas con la garganta seca. Vez una columna de fuego a unos 100 metros de donde estas.",
+    "opciones": {
+      "a": "Salís corriendo",
+      "b": "Te acercas al fuego"
+    }
+  },
+  {
+    "id": "3b",
+    "historia": "El sonido de una explosión te sacude sin darte tiempo a reaccionar. Te levantas con la garganta seca. Vez una columna de fuego a unos 100 metros de donde estas.",
+    "opciones": {
+      "a": "Salís corriendo",
+      "b": "Te acercas al fuego"
+    }
+  },
+  {
+    "id": "4a",
+    "historia": "Corres sin mirar atrás, hasta que te quedas sin aire. Una sensación de terror te recorre la espalda.   Respiras profundamente y miras atrás. Vez que el fuego ya no es una columna, es una flecha que se dirige hacia vos, pero se va apagando en el proceso.",
+    "opciones": {
+      "c": "Te quedas en el lugar",
+      "d": "Corres al agua"
+    }
+  },
+  {
+    "id": "4b",
+    "historia": "Caminas lentamente al fuego. Por alguna extraña razón no te sentís preocupado, al contrario, sentís un poco de excitación. El aire esta pesado, se siente seco y caliente pero no es incomodo. Te paras frente al fuego, el aire esta pesado pero no quema. ",
+    "opciones": {
+      "a": "Tocas el fuego",
+      "b": "Intentas apagar el fuego"
+    }
+  },
+  {
+    "id": "5a",
+    "historia": "Acercas la mano al fuego que se abre ante vos como si tuviera conciencia. En el medio del fuego hay un objeto, como una piedra o un huevo del tamaño de tu puño.",
+    "opciones": {
+      "a": "Tomas el objeto",
+      "b": "Aplastas el objeto."
+    }
+  },
+  {
+    "id": "5b",
+    "historia": "Te sacas la remera y la tiras sobre el fuego. Te das cuenta que hay algo en medio del fuego pero no te animas a acercarte. Sacas la remera y miras a tus pies. Pensás en usar la tierra para apagar el fuego y te pones manos a la obra. De a poco vas tirando tierra sobre el objeto, el fuego se va apagando y le podes prestar más atención al objeto. Se ve como una piedra o un huevo del tamaño de tu puño.",
+    "opciones": {
+      "c": "Tomas el objeto",
+      "b": "Aplastas el objeto."
+    }
+  },
+  {
+    "id": "5c",
+    "historia": "Ya no tenes aire para dar un paso más. Esperas resignado… Pasan los segundos y el fuego ya esta extinto. Ahora solo queda algo que se dirige hacia vos, pero ya no parece amenazante. El objeto cae suavemente a tus pies.",
+    "opciones": {
+      "d": "Tomas el objeto",
+      "b": "Aplastas el objeto."
+    }
+  },
+  {
+    "id": "5d",
+    "historia": "Te tiras de cabeza al mar. Antes de que puedas empezar a nadar sentís un dolor intenso en la nuca. Quedas inconsciente al instante… Despertás… El dolor todavía te recorre el cuerpo. Intentas sentarte. Ahí es cuando te das cuenta que hay algo al lado tuyo. Se ve como un huevo azul pero esta cubierto de sangre. Tu sangre!",
+    "opciones": {
+      "f": "Tomas el objeto",
+      "b": "Aplastas el objeto."
+    }
+  },
+  {
+    "id": "6a",
+    "historia": "Las llamas danzan alrededor del huevo y vos. El huevo toma un color rojo carmesí mientras se extingue el fuego, quedando un intenso brillo rojo en tu puño!",
+    "opciones": {
+      "a": "ADQUIRISTE UN HUEVO DE DRAGÓN CARMESÍ",
+      "b": "Volver al inicio"
+    }
+  },
+  {
+    "id": "6b",
+    "historia": "Se escucha un grito intenso que te congela. En un instante el fuego te envuelve mientras empezás a sentir calor. No tenes tiempo a gritar. Vuelva la paz al lugar. El viento soplando se mezcla con el silencio del bosque",
+    "opciones": {
+      "a": "FIN. Renacer para ser una mejor persona",
+      "b": "Volver al inicio"
+    }
+  },
+  {
+    "id":"6c",
+    "historia":"Al agarrar el huevo el fuego se apaga pero comienza un temblor. Te tiras al piso y sin querer se te cae el huevo pero no le pasa nada.  Intentas acercarlo a vos pero está pesado y notas que su color esta cambiando a un marrón verdoso. Usas todas tus fuerzas para mover el huevo. Con cada sentimiento sentís que aumentan los temblores, hasta que logras abrazar al huevo. La tierra se calma  y te llenas de confianza.",
+    "opciones":{
+      "a": "ADQUIRISTE UN HUEVO DE DRAGÓN DE TIERRA",
+      "b": "Volver al inicio"
+    }
+  },
+  {
+    "id":"6d",
+    "historia":"Se levanta una ráfaga que te envuelve. El objeto con forma de huevo flota levemente sobre la palma de tu mano. Cada segundo que pasa en tu mano, aumenta la presión del viento que los envuelve hasta que apoyas el huevo en tu corazón.",
+    "opciones":{
+      "a": "ADQUIRISTE UN HUEVO DE DRAGÓN DE VIENTO",
+      "b": "Volver al inicio"
+    }
+  },
+  {
+    "id":"6f",
+    "historia":"Instantáneamente te sentís mejor. Se te aclara la mente, ya no estas mareado, ni te duele la cabeza. Te das cuenta que tampoco estas sangrando. Con cuidado acercas el huevo a tus ojos y te pones a llorar. El clima te acompaña con una ligera lluvia. En algún momento la lluvia paro y tu llanto también. Tomando el huevo con las dos manos pasas la noche viendo el horizonte.",
+    "opciones":{
+      "a": "ADQUIRISTE UN HUEVO DE DRAGÓN DE AGUA",
+      "b": "Volver al inicio"
+    }
+  }
+]
